@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %}
+contact
+{% endblock %}
+{% block content %}
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mt-5">
+				<p >
+					<strong class="text-uppercase text-primary">CITY HOSPITAL</strong><br>
+					kochi<br>
+					kerala<br>
+					PIN: 682040<br>
+					India<br>
+					Call : <a class=" text-decoration-none" href="tel:9746608672">97466 08672</a><br>
+					Mail : <a class=" text-decoration-none" href="mailto:cityhospital@gmail.com">cityhospitala@gmail.com</a><br>
+					Website : <a class=" text-decoration-none" href="https://www.cityhospital.com">www.cityhospital.com</a>
+				</p>
+			</div>
+
+            <div class="col-md-6 mt-5 mb-5">
+                <div class="mb-3">
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name Here">
+                </div>
+			    <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email Here">
+                </div>
+                <div class="mb-3">
+                    <input type="contact" class="form-control" id="exampleFormControlInput1" placeholder="Contact Number Here">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                </div>
+                <div class="mb-3">
+                    <center><button type="button" class="btn btn-success">SEND MESSAGE</button></center>
+                </div>
+			</div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+{% endblock %}
